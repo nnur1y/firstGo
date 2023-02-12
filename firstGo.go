@@ -32,12 +32,12 @@ func AuthorCheck() {
 	r := Recipe{"Napoleon", 406, "Nurly", "dessert, cake"}
 
 	if u.nickname == r.author {
-		fmt.Printf("New User %s is author of %s", u.nickname, r.name)
+		fmt.Printf("\nNew User %s is author of %s", u.nickname, r.name)
 	}
 }
 
 func CalorieCheck() {
-	r := Recipe{"\nNapoleon", 406, "Nurly", "dessert, cake"}
+	r := Recipe{"Napoleon", 406, "Nurly", "dessert, cake"}
 
 	if r.calorie > 400 {
 		fmt.Printf("\nNew %s's calorie is %d, it is bigger than normal", r.name, r.calorie)
