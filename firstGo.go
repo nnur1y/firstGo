@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func sayHello(a string) {
+func SayHello(a string) {
 	fmt.Println("Hello, " + a)
 }
 
