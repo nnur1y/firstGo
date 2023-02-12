@@ -4,8 +4,8 @@ import (
 	"fmt"
 )
 
-func sayHello() string {
-	return "Hello World"
+func sayHello() {
+	fmt.Println("Hello World")
 }
 
 func PrintSmth() {
